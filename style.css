@@ -1,0 +1,213 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url(./img/background.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.container {
+
+    position: relative;
+    top: 130px;
+    left: 700px;
+    animation: move_down 7s infinite;
+    box-shadow: black;
+
+}
+
+@keyframes move_down {
+    0% {top: 128px;}
+    25% {top:200px}
+    50% {left: 200px;}
+    75% {left: 800px;}
+    90% {left: 1100px}
+
+
+}
+
+
+.corpo {
+
+    height: 300px;
+    width: 150px;
+    background-color: yellow;
+    border: 5px solid black;
+
+}
+
+.boca {
+    position: relative;
+    top: 113px;
+    left: 23px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: tomato;
+
+}
+
+
+.olhos {
+    position: relative;
+    display: flex;
+    right: 20px;
+
+}
+
+.olho {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid black;
+
+}
+
+
+
+.ponto {
+    position: relative;
+    left: 15px;
+    top: 25px;
+
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.listas {
+
+    display: flex;
+    flex-direction: column; 
+}
+
+.lista {
+
+    position: relative;
+    margin-top: 25px;
+    top: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+}
+
+.r1 {
+
+    position: relative;
+    bottom: 370px;
+    height: 60px;
+    width: 5px;
+    left: 65px;
+    background-color: black;
+
+}
+
+.r2 {
+
+    position: relative;
+    bottom: 430px;
+    height: 5px;
+    width: 60px;
+    background-color: black;
+    left: 10px;
+    
+}
+
+.ball {
+
+    position: relative;
+    bottom: 445px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    left: -15px;
+
+}
+
+#a2 {
+
+    position: relative;
+    bottom: 95px;
+    left: 60px;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+}
+
+.asas {
+    position: relative;
+    right: 170px;
+    top: 50px;
+    transform: rotate(22deg);
+    z-index: -1;
+}
+
+.asa {
+
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+    height: 100px;
+    width: 70px;
+    background-color: aquamarine;
+    border: 5px solid black;
+    z-index: -1;
+    border-radius: 50%;
+
+}
+
+#asa2 {
+
+    z-index: -2;
+    left: 140px;
+    bottom: 430px;
+
+}
+
+.ferrao {
+
+    position: relative;
+    bottom: 410px;
+    left: 95px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid black;
+    border-right: 0px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 65px solid transparent;
+    
+}
+
+
+button {
+    position: relative;
+    left: 400px;
+    bottom: 500px;
+    color: black;
+}
+
+
+.caixa {
+    position: relative;
+    right: 35px;
+    bottom: 260px;
+    display: flex;
+
+}
+#p3 {
+    height: 70px;
+    width: 70px;
+
+    background-color: black;
+}
+
+#p4 {
+    height: 70px;
+    width: 70px;
+}
